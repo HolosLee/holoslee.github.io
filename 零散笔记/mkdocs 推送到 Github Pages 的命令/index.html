@@ -31,18 +31,18 @@
       
         <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
       
-      <link rel="shortcut icon" href="/assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
     
     
       
-        <title>Personal Wiki</title>
+        <title>mkdocs 推送到 Github Pages 的命令 - Personal Wiki</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/application.adb8469c.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.adb8469c.css">
       
-        <link rel="stylesheet" href="/assets/stylesheets/application-palette.a8b3c06d.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -51,7 +51,7 @@
       
     
     
-      <script src="/assets/javascripts/modernizr.86422ebf.js"></script>
+      <script src="../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -60,7 +60,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="/assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
     
@@ -88,7 +88,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="/." title="Personal Wiki" aria-label="Personal Wiki" class="md-header-nav__button md-logo">
+        <a href="../.." title="Personal Wiki" aria-label="Personal Wiki" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -105,7 +105,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                
+                mkdocs 推送到 Github Pages 的命令
               
             </span>
           
@@ -158,7 +158,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="/." title="Personal Wiki" class="md-nav__button md-logo">
+    <a href="../.." title="Personal Wiki" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -174,7 +174,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/." title="Welcome to MkDocs" class="md-nav__link">
+    <a href="../.." title="Welcome to MkDocs" class="md-nav__link">
       Welcome to MkDocs
     </a>
   </li>
@@ -184,10 +184,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       零散笔记
@@ -205,7 +207,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/Mac%20%E7%BB%88%E7%AB%AF%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="Mac 终端的常用命令记录" class="md-nav__link">
+    <a href="../Mac%20%E7%BB%88%E7%AB%AF%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="Mac 终端的常用命令记录" class="md-nav__link">
       Mac 终端的常用命令记录
     </a>
   </li>
@@ -215,11 +217,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="/%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/mkdocs%20%E6%8E%A8%E9%80%81%E5%88%B0%20Github%20Pages%20%E7%9A%84%E5%91%BD%E4%BB%A4/" title="mkdocs 推送到 Github Pages 的命令" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="mkdocs 推送到 Github Pages 的命令" class="md-nav__link md-nav__link--active">
       mkdocs 推送到 Github Pages 的命令
     </a>
+    
   </li>
 
         
@@ -239,8 +248,17 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
-
+                
+                
+                  <h1>mkdocs 推送到 Github Pages 的命令</h1>
+                
+                <p><code>mkdocs gh-deploy --config-file ../personal_wiki/mkdocs.yml --remote-branch master</code> </p>
+<p>使用Typora 编辑好 personal_wiki 文件夹下的 doc 目录里的文档，就可以用这条命令推送到 GitHub，过一会就会更新。务必要注意，使用这条命令的时候要注意先切换到 Github Page 克隆到本地的文件夹 holoslee.github.io。</p>
+                
+                  
+                
+                
+              
               
                 
 
@@ -253,6 +271,27 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Mac%20%E7%BB%88%E7%AB%AF%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="Mac 终端的常用命令记录" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Mac 终端的常用命令记录
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -271,26 +310,26 @@
       
     </div>
     
-      <script src="/assets/javascripts/application.c33a9706.js"></script>
+      <script src="../../assets/javascripts/application.c33a9706.js"></script>
       
         
         
           
-          <script src="/assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
           
             
               
-                <script src="/assets/javascripts/lunr/tinyseg.js"></script>
+                <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
               
               
-                <script src="/assets/javascripts/lunr/lunr.ja.js"></script>
+                <script src="../../assets/javascripts/lunr/lunr.ja.js"></script>
               
             
           
           
         
       
-      <script>app.initialize({version:"1.1",url:{base:"/"}})</script>
+      <script>app.initialize({version:"1.1",url:{base:"../.."}})</script>
       
     
   </body>
